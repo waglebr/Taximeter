@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="taxi.css" media="screen">
+<script src="taxi.js"></script>
+<script src="http://use.edgefonts.net/codystar:n4,n3:all.js"></script>
+<script src="http://use.edgefonts.net/codystar:n4,n3:all;germania-one:n4:all.js"></script>
+<body>
+<h1>Calculate Your Taxi Fare</h1>
+<br>
+	<p>
+			<label><span>Pick Up Time: </span>
+				<input id='hours' type=number required>*Between 8pm to 6am, surcharge of $0.50 per mile
+			</label>
+</p>
+<p>
+			<label><span>Miles: </span>
+				<input id='miles' type=number required>
+			</label>
+			</p>
+			<input type='button' value='Calculate Cost' onclick="taxiFare()">
+			<span id='total'></span>
+</body>
+</html>
